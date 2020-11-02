@@ -1,7 +1,7 @@
 pipeline {
    agent any
    environment {
-       registry = "9912720749/jenkins-demo"
+       registry = "senthil123/jenkins_customci"
        registryCredential= 'dockerhub'
        dockerImage=''
    }
